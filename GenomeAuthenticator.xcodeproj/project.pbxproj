@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6926FC5519259E0500621556 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6926FC5419259E0500621556 /* Foundation.framework */; };
+		6926FC5719259E0500621556 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6926FC5619259E0500621556 /* CoreGraphics.framework */; };
+		6926FC5919259E0500621556 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6926FC5819259E0500621556 /* UIKit.framework */; };
+		6926FC5F19259E0500621556 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6926FC5D19259E0500621556 /* InfoPlist.strings */; };
+		6926FC6119259E0500621556 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6926FC6019259E0500621556 /* main.m */; };
+		6926FC6519259E0500621556 /* MRGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6926FC6419259E0500621556 /* MRGAppDelegate.m */; };
+		6926FC6719259E0500621556 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6926FC6619259E0500621556 /* Images.xcassets */; };
+		6926FC6E19259E0500621556 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6926FC6D19259E0500621556 /* XCTest.framework */; };
+		6926FC6F19259E0500621556 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6926FC5419259E0500621556 /* Foundation.framework */; };
+		6926FC7019259E0500621556 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6926FC5819259E0500621556 /* UIKit.framework */; };
+		6926FC7819259E0500621556 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6926FC7619259E0500621556 /* InfoPlist.strings */; };
+		6926FC7A19259E0500621556 /* GenomeAuthenticatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6926FC7919259E0500621556 /* GenomeAuthenticatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6926FC7119259E0500621556 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6926FC4919259E0500621556 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6926FC5019259E0500621556;
+			remoteInfo = GenomeAuthenticator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6926FC5119259E0500621556 /* GenomeAuthenticator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenomeAuthenticator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6926FC5419259E0500621556 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6926FC5619259E0500621556 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6926FC5819259E0500621556 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6926FC5C19259E0500621556 /* GenomeAuthenticator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GenomeAuthenticator-Info.plist"; sourceTree = "<group>"; };
+		6926FC5E19259E0500621556 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6926FC6019259E0500621556 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6926FC6219259E0500621556 /* GenomeAuthenticator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GenomeAuthenticator-Prefix.pch"; sourceTree = "<group>"; };
+		6926FC6319259E0500621556 /* MRGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRGAppDelegate.h; sourceTree = "<group>"; };
+		6926FC6419259E0500621556 /* MRGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRGAppDelegate.m; sourceTree = "<group>"; };
+		6926FC6619259E0500621556 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6926FC6C19259E0500621556 /* GenomeAuthenticatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenomeAuthenticatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6926FC6D19259E0500621556 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6926FC7519259E0500621556 /* GenomeAuthenticatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GenomeAuthenticatorTests-Info.plist"; sourceTree = "<group>"; };
+		6926FC7719259E0500621556 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6926FC7919259E0500621556 /* GenomeAuthenticatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenomeAuthenticatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6926FC4E19259E0500621556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6926FC5719259E0500621556 /* CoreGraphics.framework in Frameworks */,
+				6926FC5919259E0500621556 /* UIKit.framework in Frameworks */,
+				6926FC5519259E0500621556 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6926FC6919259E0500621556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6926FC6E19259E0500621556 /* XCTest.framework in Frameworks */,
+				6926FC7019259E0500621556 /* UIKit.framework in Frameworks */,
+				6926FC6F19259E0500621556 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6926FC4819259E0500621556 = {
+			isa = PBXGroup;
+			children = (
+				6926FC5A19259E0500621556 /* GenomeAuthenticator */,
+				6926FC7319259E0500621556 /* GenomeAuthenticatorTests */,
+				6926FC5319259E0500621556 /* Frameworks */,
+				6926FC5219259E0500621556 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6926FC5219259E0500621556 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6926FC5119259E0500621556 /* GenomeAuthenticator.app */,
+				6926FC6C19259E0500621556 /* GenomeAuthenticatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6926FC5319259E0500621556 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6926FC5419259E0500621556 /* Foundation.framework */,
+				6926FC5619259E0500621556 /* CoreGraphics.framework */,
+				6926FC5819259E0500621556 /* UIKit.framework */,
+				6926FC6D19259E0500621556 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6926FC5A19259E0500621556 /* GenomeAuthenticator */ = {
+			isa = PBXGroup;
+			children = (
+				6926FC6319259E0500621556 /* MRGAppDelegate.h */,
+				6926FC6419259E0500621556 /* MRGAppDelegate.m */,
+				6926FC6619259E0500621556 /* Images.xcassets */,
+				6926FC5B19259E0500621556 /* Supporting Files */,
+			);
+			path = GenomeAuthenticator;
+			sourceTree = "<group>";
+		};
+		6926FC5B19259E0500621556 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6926FC5C19259E0500621556 /* GenomeAuthenticator-Info.plist */,
+				6926FC5D19259E0500621556 /* InfoPlist.strings */,
+				6926FC6019259E0500621556 /* main.m */,
+				6926FC6219259E0500621556 /* GenomeAuthenticator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6926FC7319259E0500621556 /* GenomeAuthenticatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				6926FC7919259E0500621556 /* GenomeAuthenticatorTests.m */,
+				6926FC7419259E0500621556 /* Supporting Files */,
+			);
+			path = GenomeAuthenticatorTests;
+			sourceTree = "<group>";
+		};
+		6926FC7419259E0500621556 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6926FC7519259E0500621556 /* GenomeAuthenticatorTests-Info.plist */,
+				6926FC7619259E0500621556 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6926FC5019259E0500621556 /* GenomeAuthenticator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6926FC7D19259E0500621556 /* Build configuration list for PBXNativeTarget "GenomeAuthenticator" */;
+			buildPhases = (
+				6926FC4D19259E0500621556 /* Sources */,
+				6926FC4E19259E0500621556 /* Frameworks */,
+				6926FC4F19259E0500621556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GenomeAuthenticator;
+			productName = GenomeAuthenticator;
+			productReference = 6926FC5119259E0500621556 /* GenomeAuthenticator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6926FC6B19259E0500621556 /* GenomeAuthenticatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6926FC8019259E0500621556 /* Build configuration list for PBXNativeTarget "GenomeAuthenticatorTests" */;
+			buildPhases = (
+				6926FC6819259E0500621556 /* Sources */,
+				6926FC6919259E0500621556 /* Frameworks */,
+				6926FC6A19259E0500621556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6926FC7219259E0500621556 /* PBXTargetDependency */,
+			);
+			name = GenomeAuthenticatorTests;
+			productName = GenomeAuthenticatorTests;
+			productReference = 6926FC6C19259E0500621556 /* GenomeAuthenticatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6926FC4919259E0500621556 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MRG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Maximilian Gerlach";
+				TargetAttributes = {
+					6926FC6B19259E0500621556 = {
+						TestTargetID = 6926FC5019259E0500621556;
+					};
+				};
+			};
+			buildConfigurationList = 6926FC4C19259E0500621556 /* Build configuration list for PBXProject "GenomeAuthenticator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6926FC4819259E0500621556;
+			productRefGroup = 6926FC5219259E0500621556 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6926FC5019259E0500621556 /* GenomeAuthenticator */,
+				6926FC6B19259E0500621556 /* GenomeAuthenticatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6926FC4F19259E0500621556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6926FC5F19259E0500621556 /* InfoPlist.strings in Resources */,
+				6926FC6719259E0500621556 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6926FC6A19259E0500621556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6926FC7819259E0500621556 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6926FC4D19259E0500621556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6926FC6119259E0500621556 /* main.m in Sources */,
+				6926FC6519259E0500621556 /* MRGAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6926FC6819259E0500621556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6926FC7A19259E0500621556 /* GenomeAuthenticatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6926FC7219259E0500621556 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6926FC5019259E0500621556 /* GenomeAuthenticator */;
+			targetProxy = 6926FC7119259E0500621556 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6926FC5D19259E0500621556 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6926FC5E19259E0500621556 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6926FC7619259E0500621556 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6926FC7719259E0500621556 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6926FC7B19259E0500621556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6926FC7C19259E0500621556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6926FC7E19259E0500621556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GenomeAuthenticator/GenomeAuthenticator-Prefix.pch";
+				INFOPLIST_FILE = "GenomeAuthenticator/GenomeAuthenticator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6926FC7F19259E0500621556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GenomeAuthenticator/GenomeAuthenticator-Prefix.pch";
+				INFOPLIST_FILE = "GenomeAuthenticator/GenomeAuthenticator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6926FC8119259E0500621556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GenomeAuthenticator.app/GenomeAuthenticator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GenomeAuthenticator/GenomeAuthenticator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GenomeAuthenticatorTests/GenomeAuthenticatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6926FC8219259E0500621556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GenomeAuthenticator.app/GenomeAuthenticator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GenomeAuthenticator/GenomeAuthenticator-Prefix.pch";
+				INFOPLIST_FILE = "GenomeAuthenticatorTests/GenomeAuthenticatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6926FC4C19259E0500621556 /* Build configuration list for PBXProject "GenomeAuthenticator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6926FC7B19259E0500621556 /* Debug */,
+				6926FC7C19259E0500621556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6926FC7D19259E0500621556 /* Build configuration list for PBXNativeTarget "GenomeAuthenticator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6926FC7E19259E0500621556 /* Debug */,
+				6926FC7F19259E0500621556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6926FC8019259E0500621556 /* Build configuration list for PBXNativeTarget "GenomeAuthenticatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6926FC8119259E0500621556 /* Debug */,
+				6926FC8219259E0500621556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6926FC4919259E0500621556 /* Project object */;
+}
