@@ -7,6 +7,8 @@
 //
 
 #import "MRGAppDelegate.h"
+#import "MRGRootViewController.h"
+
 
 @implementation MRGAppDelegate
 
@@ -14,8 +16,17 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+
+	
+	UIViewController *rootvc = [MRGRootViewController new];
+	self.window.rootViewController = rootvc;
+	
+
+	
+	self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+	
+	
     return YES;
 }
 
