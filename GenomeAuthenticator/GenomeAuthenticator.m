@@ -10,7 +10,6 @@
 
 //Dependencies
 #import <ReactiveCocoa/ReactiveCocoa.h>
-#import <AFNetworking/AFNetworking.h>
 #import "RACEXTScope.h"
 #import "Reachability.h"
 
@@ -24,7 +23,7 @@ NSString *const kConnectionTestURL = @"http://genome.klick.com/api/User/3438.jso
 @implementation GenomeAuthenticator
 
 -(void)loadView {
-	UIWebView *webview = [[UIWebView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+	UIWebView *webview = [[UIWebView alloc] initWithFrame:[[UIScreen mainScreen] bounds] ];
 	webview.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
 	webview.userInteractionEnabled = YES;
 	webview.delegate = self;
@@ -45,15 +44,24 @@ NSString *const kConnectionTestURL = @"http://genome.klick.com/api/User/3438.jso
 }
 
 - (void) testCookieValidity {
-	AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-	manager.responseSerializer = [AFHTTPResponseSerializer serializer];
-	[manager GET:kConnectionTestURL parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
-		[self.authenticationSignal sendNext:@YES];
-		[self.authenticationSignal sendCompleted];
-	} failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-		[self.authenticationSignal sendNext:@NO];
-	}];
- }
+	NSURLSession *session = [NSURLSession sharedSession];
+	[[session dataTaskWithURL:[NSURL URLWithString:kConnectionTestURL]
+			completionHandler:^(NSData *data,
+								NSURLResponse *response,
+								NSError *error) {
+				NSHTTPURLResponse *httpResp = (NSHTTPURLResponse*) response;
+				//dispatch on main queue or it bombs
+				dispatch_async(dispatch_get_main_queue(), ^{
+					if (!error && httpResp.statusCode == 200) {
+							[self.authenticationSignal sendNext:@YES];
+							[self.authenticationSignal sendCompleted];
+					} else {
+						[self.authenticationSignal sendNext:@NO];
+					}
+				});
+
+			}] resume];
+}
 
 - (RACSignal *)authenticate {
 	[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
