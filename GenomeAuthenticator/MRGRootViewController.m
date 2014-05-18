@@ -9,6 +9,9 @@
 #import "MRGRootViewController.h"
 #import "GenomeAuthenticator.h"
 
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import "RACEXTScope.h"
+
 @interface MRGRootViewController ()
 @property (strong, nonatomic) GenomeAuthenticator *genomeAuthenticator;
 @property (strong, nonatomic) UIWebView *webview ;

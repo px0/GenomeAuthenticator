@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   s.author             = { "Maximilian Gerlach" => "m@px0.de" }
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "https://github.com/px0/GenomeAuthenticator.git", :commit => "2af6ececfc680b64a9c83238ad756710cffb53ac" }
+  s.source       = { :git => "https://github.com/px0/GenomeAuthenticator.git", :branch => "master"}
 
   s.source_files  = "GenomeAuthenticator/GenomeAuthenticator.{h,m}"
   s.requires_arc = true
