@@ -8,6 +8,12 @@
 
 #import "GenomeAuthenticator.h"
 
+//Dependencies
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <AFNetworking/AFNetworking.h>
+#import "RACEXTScope.h"
+#import "Reachability.h"
+
 @interface GenomeAuthenticator ()
 @property (strong, nonatomic) RACReplaySubject *authenticationSignal;
 @end

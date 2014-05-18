@@ -6,9 +6,6 @@ PODS:
     - AFNetworking/Security
     - AFNetworking/Serialization
     - AFNetworking/UIKit
-  - AFNetworking-RACExtensions (0.1.4):
-    - AFNetworking (~> 2.0)
-    - ReactiveCocoa (~> 2.0)
   - AFNetworking/NSURLConnection (2.2.4):
     - AFNetworking/Reachability
     - AFNetworking/Security
@@ -31,13 +28,12 @@ PODS:
     - ReactiveCocoa/Core
 
 DEPENDENCIES:
-  - AFNetworking-RACExtensions
+  - AFNetworking
   - Reachability
   - ReactiveCocoa
 
 SPEC CHECKSUMS:
   AFNetworking: 01aa7c3aa9a200b94943e54072a4373f14b3d219
-  AFNetworking-RACExtensions: 37adcfb7bc8adebe736ee024e74859ad38cca9c1
   Reachability: be4883bb93f31e38266ae3365e5600a317aae735
   ReactiveCocoa: dde7b11a14954edf789e7343b2c32e595caabd01
 

@@ -8,7 +8,6 @@
 
 #import "MRGRootViewController.h"
 #import "GenomeAuthenticator.h"
-#import "RACEXTScope.h"
 
 @interface MRGRootViewController ()
 @property (strong, nonatomic) GenomeAuthenticator *genomeAuthenticator;

@@ -3,4 +3,4 @@ inhibit_all_warnings!
 
 pod 'Reachability'
 pod 'ReactiveCocoa'
-pod 'AFNetworking-RACExtensions'
+pod 'AFNetworking'
